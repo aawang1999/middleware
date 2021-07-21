@@ -17,3 +17,5 @@ const tools = {
     return `${responseTimeLog} | ${res.req.method} from ${res.req.originalUrl} | total time: ${handleDuration}ms`
   }
 }
+
+module.exports = tools
