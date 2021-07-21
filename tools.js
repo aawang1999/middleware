@@ -2,7 +2,7 @@ const moment = require('moment')
 
 const tools = {
   randomId: () => {
-    return Math.floor(Math.random() * 100)
+    return Math.floor(Math.random() * 1000)
   },
   logRequest: (req) => {
     const requestUnixTime = Date.now()
